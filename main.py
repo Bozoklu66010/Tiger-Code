@@ -12,7 +12,7 @@ token = os.environ.get('DISCORD_BOT_TOKEN')
 SPAM_CHANNEL =  ["https://discord.gg/EMfADKgTdh runs you" , "Get ran" , "https://discord.gg/EMfADKgTdh" , "oops Beamed","https://discord.gg/CJGDSREU Beamed You","Shoulda Listened","Get beamed clowns","Beamed by https://discord.gg/CJGDSREU","oops got nuked","I run you","beamed by https://discord.gg/CJGDSREU","I run you","kinda got beamed by https://discord.gg/CJGDSREU"]
 SPAM_MESSAGE = ["@everyone https://discord.gg/EMfADKgTdh"]
 
-client = commands.Bot(command_prefix="!")
+client = commands.Bot(command_prefix="+")
 
 
 @client.event
@@ -26,7 +26,7 @@ async def on_ready():
 ██║░╚███║╚██████╔╝██║░╚██╗███████╗  ██████╦╝╚█████╔╝░░░██║░░░  
 ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝  ╚═════╝░░╚════╝░░░░╚═╝░░░ 
  ''')
-   await client.change_presence(activity=discord.Game(name="Tiger commands"))
+   await client.change_presence(activity=discord.Game(name="Taming skids"))
 
 @client.command()
 @commands.is_owner()
